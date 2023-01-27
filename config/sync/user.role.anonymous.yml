@@ -1,0 +1,21 @@
+uuid: 84e7e8d3-3d02-4dd9-b0bd-d04c11c3300b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'create article content'
+  - 'create riddle content'
+  - 'delete any riddle content'
+  - 'delete own riddle content'
+  - 'delete riddle revisions'
+  - 'edit any riddle content'
+  - 'edit own riddle content'
+  - 'execute graphql requests'
+  - 'execute persisted graphql requests'
